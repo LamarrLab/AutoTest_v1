@@ -1,0 +1,143 @@
+all device restart! cur_time: 2022-10-18 10:08:47, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3', '7.247.44.211:5555']
+all device restart! cur_time: 2022-10-18 10:10:37, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3', '7.247.44.211:5555']
+cur_time: 2022-10-18 10:10:37, device: ZY22CXK3N3, app_name: douyinlive
+cur_time: 2022-10-18 10:10:37, device: 7.247.44.211:5555, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:12:11, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3', '7.247.44.211:5555']
+cur_time: 2022-10-18 10:12:11, device: ZY22CXK3N3, app_name: douyinlive
+cur_time: 2022-10-18 10:12:11, device: 7.247.44.211:5555, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:12:40, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:12:40, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:29:43, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.211']
+all device restart! cur_time: 2022-10-18 10:30:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.211']
+all device restart! cur_time: 2022-10-18 10:30:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.211']
+cur_time: 2022-10-18 10:30:56, device: 7.247.44.211, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:32:18, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.211']
+cur_time: 2022-10-18 10:32:18, device: 7.247.44.211, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:33:42, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:33:42, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:37:15, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:37:15, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:41:15, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:41:15, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:41:36, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:41:36, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:46:19, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:46:19, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 10:49:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 10:49:56, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 14:14:27, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:15:25, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:15:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:17:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:17:24, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:17:45, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 14:17:45, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 14:19:00, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:19:13, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 14:19:13, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 14:19:19, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:19:26, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 14:19:26, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 14:19:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 14:19:45, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 15:03:11, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 15:03:11, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 15:03:36, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 15:03:36, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 15:05:28, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+all device restart! cur_time: 2022-10-18 15:06:22, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 15:06:22, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:25:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CXK3N3']
+cur_time: 2022-10-18 17:25:38, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:27:17, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZPZ', 'ZY22CXK3N3']
+cur_time: 2022-10-18 17:27:17, device: ZY22CWDZPZ, app_name: douyinlive
+cur_time: 2022-10-18 17:27:17, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:28:31, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZPZ', 'ZY22CXK3N3']
+cur_time: 2022-10-18 17:28:31, device: ZY22CWDZPZ, app_name: douyinlive
+cur_time: 2022-10-18 17:28:31, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:29:43, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZPZ', 'ZY22CXK3N3']
+cur_time: 2022-10-18 17:29:43, device: ZY22CWDZPZ, app_name: douyinlive
+cur_time: 2022-10-18 17:29:43, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:31:40, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZPZ', 'ZY22CXK3N3']
+cur_time: 2022-10-18 17:31:40, device: ZY22CWDZPZ, app_name: douyinlive
+cur_time: 2022-10-18 17:31:40, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-18 17:31:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZPZ', 'ZY22CXK3N3']
+cur_time: 2022-10-18 17:31:56, device: ZY22CWDZPZ, app_name: douyinlive
+cur_time: 2022-10-18 17:31:56, device: ZY22CXK3N3, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 10:56:19, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: [None]
+cur_time: 2022-10-24 10:56:19, device: None, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 10:57:50, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: [None]
+cur_time: 2022-10-24 10:57:50, device: None, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 10:58:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 10:58:38, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 10:59:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 10:59:05, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 10:59:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 10:59:16, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:00:04, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:00:06, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:00:07, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:00:07, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:00:12, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:00:12, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:01:42, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:01:42, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:02:36, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.102']
+cur_time: 2022-10-24 11:02:36, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:02:36, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:03:40, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:03:40, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:04:20, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:04:20, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:06:28, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:06:28, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:06:50, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:06:50, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:07:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:07:05, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:07:55, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:07:55, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:08:19, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:08:19, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:08:43, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.102']
+cur_time: 2022-10-24 11:08:43, device: 7.247.44.102, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:09:15, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:09:15, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:10:31, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-10-24 11:10:41, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-10-24 11:10:58, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:10:58, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:12:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.92']
+cur_time: 2022-10-24 11:12:09, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:12:53, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.92']
+cur_time: 2022-10-24 11:12:53, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:13:31, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.92']
+cur_time: 2022-10-24 11:13:31, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:14:00, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.92']
+cur_time: 2022-10-24 11:14:01, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:14:33, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:14:33, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:14:33, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:15:04, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:15:04, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:15:04, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:15:13, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:15:14, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:15:14, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:16:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:16:09, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:16:09, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:17:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:17:09, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:17:09, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:17:55, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:17:55, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:18:22, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:18:22, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:19:12, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195']
+cur_time: 2022-10-24 11:19:12, device: 7.247.44.195, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:21:26, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.92']
+cur_time: 2022-10-24 11:21:26, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-10-24 11:22:44, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
+cur_time: 2022-10-24 11:22:44, device: 7.247.44.195, app_name: douyinlive
+cur_time: 2022-10-24 11:22:44, device: 7.247.44.92, app_name: douyinlive
