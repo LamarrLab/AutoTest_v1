@@ -141,3 +141,143 @@ cur_time: 2022-10-24 11:21:26, device: 7.247.44.92, app_name: douyinlive
 all device restart! cur_time: 2022-10-24 11:22:44, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['7.247.44.195', '7.247.44.92']
 cur_time: 2022-10-24 11:22:44, device: 7.247.44.195, app_name: douyinlive
 cur_time: 2022-10-24 11:22:44, device: 7.247.44.92, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 15:11:04, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:12:03, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:13:20, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:13:34, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:16:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:16:33, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: []
+all device restart! cur_time: 2022-11-03 15:18:33, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E\n']
+all device restart! cur_time: 2022-11-03 15:20:20, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:20:20, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 15:21:34, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:21:34, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 15:22:27, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:22:27, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 15:27:58, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:27:58, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 15:28:12, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 15:28:29, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:28:29, device: 00008110-001A79D10CE1401E, app_name: douyin
+all device restart! cur_time: 2022-11-03 15:29:04, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:29:04, device: 00008110-001A79D10CE1401E, app_name: douyin
+all device restart! cur_time: 2022-11-03 15:33:24, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:33:24, device: 00008110-001A79D10CE1401E, app_name: douyin
+all device restart! cur_time: 2022-11-03 15:34:11, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:34:11, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 15:34:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:34:38, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 15:42:20, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:42:20, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 15:54:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:54:09, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 15:56:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 15:56:56, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:02:19, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:02:19, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:03:24, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:03:24, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:04:32, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:04:32, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:05:03, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:05:03, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:05:58, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:05:58, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:08:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:08:38, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:08:55, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:08:55, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:09:52, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:09:52, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:14:07, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:14:07, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:14:27, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:14:27, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:15:22, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:15:22, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:16:55, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:16:55, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:18:08, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:18:08, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:24:48, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:24:48, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:26:28, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:26:28, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:27:17, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:27:17, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:27:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:27:56, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:28:26, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:28:26, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:30:01, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:30:01, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:31:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:31:05, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 16:45:31, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:45:31, device: 00008110-001E3C3E0E2A401E, app_name: FTPmanager
+cur_time: 2022-11-03 16:45:31, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 16:46:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:46:16, device: 00008110-001E3C3E0E2A401E, app_name: FTPmanager
+cur_time: 2022-11-03 16:46:16, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 16:46:50, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:46:50, device: 00008110-001E3C3E0E2A401E, app_name: FTPmanager
+cur_time: 2022-11-03 16:46:50, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 16:50:48, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:50:48, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:51:21, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:51:27, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:52:13, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:52:13, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:54:14, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:54:21, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:54:59, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:55:02, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:56:37, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:56:40, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 16:57:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 16:58:22, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 16:58:25, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 17:00:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:00:19, device: 00008110-001A79D10CE1401E, app_name: bilibili
+all device restart! cur_time: 2022-11-03 17:01:16, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:01:16, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+cur_time: 2022-11-03 17:01:19, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 17:01:36, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:01:36, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+cur_time: 2022-11-03 17:01:39, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 17:21:20, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:21:20, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-03 17:21:37, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 17:22:01, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 17:23:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 17:23:47, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 17:24:05, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:24:05, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 17:24:08, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 17:24:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 17:25:17, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:25:20, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 17:25:20, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 17:27:30, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:27:34, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 17:27:34, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 17:29:09, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:29:12, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 17:29:12, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 17:30:01, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 17:30:01, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 17:30:01, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 18:44:21, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 18:44:21, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 18:52:47, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 18:52:50, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 18:53:22, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 18:53:25, device: 00008110-001E3C3E0E2A401E, app_name: douyinlive
+cur_time: 2022-11-03 18:53:28, device: 00008110-001A79D10CE1401E, app_name: douyinlive
+all device restart! cur_time: 2022-11-03 18:57:38, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-03 18:57:54, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 18:57:57, device: 00008110-001E3C3E0E2A401E, app_name: FTPmanager
+cur_time: 2022-11-03 18:58:00, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
+all device restart! cur_time: 2022-11-03 18:59:53, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-03 18:59:56, device: 00008110-001E3C3E0E2A401E, app_name: FTPmanager
+cur_time: 2022-11-03 18:59:59, device: 00008110-001A79D10CE1401E, app_name: FTPmanager
