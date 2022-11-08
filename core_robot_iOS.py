@@ -52,15 +52,21 @@ class App(th.Thread):
         self._last_time = time.time()
 
     def _prepare_wait(self):
-        self._d.unlock()
-        time.sleep(0.5)
+        if self._d.locked():
+            self._d.unlock()
+            time.sleep(0.5)
         self._d.home()
+
+    def _mute(self):
+        self._d.press_duration('volumeDown', 1.5) #最大音量时，1.5s可以降为静音
 
     def _prepare_watchers(self):
         pass
 
     def _start(self):
-        self._prepare_wait()
+        self._prepare_wait()  #解锁，并进入home主界面等待
+        self._mute()  # 静音
+
         if self._app_activity == '':
             self._d.app_start(self._app_name)
         else:
@@ -80,7 +86,7 @@ class App(th.Thread):
         pass
 
     def do_loop_operation(self):
-        print('base class do_loop_operation()')
+        # print('base class do_loop_operation()')
         pass
 
     def send_email(self, image_path):
@@ -114,45 +120,28 @@ class App(th.Thread):
         self._begin = time.time()
         self._last_report = self._begin
         while True:
-            try:
-                self._start()
-                self._prepare_watchers()
-                self.add_extra_watchers()
-                self._last_time = time.time()
-                self.do_once_operation()
-                self._d.device_info()
-                while True:
-                    self.do_loop_operation()
+            self._start()
+            self._prepare_watchers()
+            self.add_extra_watchers()
+            self._last_time = time.time()
+            self.do_once_operation()
+            self._d.device_info()
+            while True:
+                self.do_loop_operation()
 
-                    # if self._duration_max > 0 and (time.time() - self._begin) > self._duration_max:
-                    #     self._d.watcher.stop()
-                    #     self._d.watcher.remove()
-                    #     self._d.app_stop(self._app_name)
-                    #     # print('%s pid %d exit' % (self._app_name, self._pid))
-                    #     print('device %s app %s exit' % (self._d.device_info['model'], self._app_name))
-                    #     return
-                    # elif time.time() - self._last_report > 10:
-                    #     self._last_report = time.time()
-                    #     stat = self._get_device_stat()
-                    #     self._put_stat_data(stat)
+                # if self._duration_max > 0 and (time.time() - self._begin) > self._duration_max:
+                #     self._d.watcher.stop()
+                #     self._d.watcher.remove()
+                #     self._d.app_stop(self._app_name)
+                #     # print('%s pid %d exit' % (self._app_name, self._pid))
+                #     print('device %s app %s exit' % (self._d.device_info['model'], self._app_name))
+                #     return
+                # elif time.time() - self._last_report > 10:
+                #     self._last_report = time.time()
+                #     stat = self._get_device_stat()
+                #     self._put_stat_data(stat)
 
-            except Exception as e:
-                time.sleep(1)
-                print('device %s app %s' % (self._d.device_info['model'], self._app_name))
-                print('error:', e.__class__.__name__, e)
-                if self._ppid in psutil.pids():
-                    # print('%s pid %d error, restart !' % (self._app_name, self._pid))
-                    print('device %s app %s restart' % (self._d.device_info['model'], self._app_name))
-                    time.sleep(5)
-                    continue
-                else:
-                    # print('ppid %d not found, %s exit!' % (self._ppid, self._app_name))
-                    print('ppid %s not found, device %s app %s exit' % (
-                        self._ppid, self._d.device_info['model'], self._app_name))
-                    self._d.watcher.stop()
-                    self._d.watcher.remove()
-                    self._d.app_stop_all()
-                    return
+
 
     def _get_device_stat(self):
         device = {}
@@ -174,6 +163,63 @@ class FTPmanager(App):
     def do_loop_operation(self):
         pass
 
+class FTPelf(App):
+    def __init__(self, adb_type, sn, q, ppid, app_parameter):
+        super(FTPelf, self).__init__(adb_type, sn, 0, q, 'com.ujweng.ftpspritefree', '', ppid, app_parameter)
+
+    def do_once_operation(self):
+        print('app tid: ', th.current_thread().name)
+        self._d(type='Button', label='FTP服务器').tap()
+        if(self._d(label='7.247.44.126').exists):
+            self._d(label='7.247.44.126').tap()
+        else:
+            self._d(type='XCUIElementTypeButton', label='添加 FTP服务器').tap()
+            if (self._d(predicate='label == "FTP精灵" AND name == "FTP精灵" AND value == "FTP精灵"').exists):
+                self._d(predicate='label == "以后再说"').tap()
+                self._d.swipe(0.8, 0.2, 0, 0.2) # 只能坐标定位了
+                # self._d(classChain='**/XCUIElementTypeButton[`label == "编辑"`][2]').tap()
+                # self._d(predicate='label == "删除“7.247.44.212, abc”"').tap()
+                # self._d(predicate='label == "删除" AND name == "删除" AND type == "XCUIElementTypeButton"').tap()
+                self._d(type='XCUIElementTypeButton', label='添加 FTP服务器').tap()
+            self._d(value='My FTP site').get().set_text('test\n')
+            time.sleep(0.5)
+            self._d(value='ftp.company.com').get().set_text('7.247.44.126\n')
+            time.sleep(0.5)
+            self._d(value='用户名').get().set_text('test\n')
+            time.sleep(0.5)
+            self._d(value='密码').get().set_text('Huawei123\n')
+            time.sleep(0.5)
+            self._d(type='XCUIElementTypeButton', label='完成').tap()
+            self._d(label='7.247.44.126').tap()
+        print('0000')
+        file_name = 'ftp.rar'
+        if False:
+            print('No files!')
+        else:
+            print('11111')
+            a = 20
+            while not self._d(predicate='label == "{}"'.format(file_name)).exists and a > 0:
+                print('2222')
+                self._d.swipe(0.5, 0.8, 0.5, 0.3)
+                time.sleep(0.2)
+                a = a-1
+            if not self._d(predicate='label == "{}"'.format(file_name)).exists:
+                print('File not found!')
+            else:
+                print('3333')
+                ele = self._d(predicate='label == "{}"'.format(file_name)).get().bounds
+                self._d.tap(ele[0]+ele[3]/2, ele[1]+ele[3]/2)
+                download_start = time.time()
+                while not self._d(type='XCUIElementTypeProgressIndicator').exists:
+                    download_start = time.time()
+                while self._d(type='XCUIElementTypeProgressIndicator').exists:
+                    pass
+                print('5555')
+                download_end = time.time()
+                print('download time: {}'.format(download_end - download_start))
+                self._d(predicate='label == "返回"').click_exists(5)
+
+
 class BiliBili(App):
     def __init__(self, adb_type, sn, q, ppid, app_parameter):
         super(BiliBili, self).__init__(adb_type, sn, 0, q, 'tv.danmaku.bilianime', '', ppid, app_parameter)
@@ -181,6 +227,8 @@ class BiliBili(App):
     def do_loop_operation(self):
         print('app tid: ', th.current_thread().name)
         self._d.swipe(0.5, 0.5, 0.5, 0.3)
+
+
 
 class Kuaishou(App):
     def __init__(self, adb_type, sn, q, ppid, app_parameter):
@@ -226,10 +274,10 @@ class Douyinlive(App):
         self._d.swipe(0.5, 0.5, 0.5, 0.3)
 
     def switchLiveDefinition(self):
-        ##切换直播清晰度
+        # 切换直播清晰度
         self._d(description="更多面板 按钮").click()
         self._d(text="清晰度").click()
-        #self._d.xpath('//*[@resource-id="com.ss.android.ugc.aweme:id/jti"]/android.widget.FrameLayout[1]').click()
+        # self._d.xpath('//*[@resource-id="com.ss.android.ugc.aweme:id/jti"]/android.widget.FrameLayout[1]').click()
         self._d(text="高清").click()
 
     def do_loop_operation(self):
@@ -359,7 +407,7 @@ class Agent(th.Thread):
 
         # 随机选择一个具体的APP
         #app_name = apps[randrange(len(apps))]
-        app_name = 'FTPmanager'
+        app_name = 'FTPelf'
 
         # 根据当前sn判断是否需要启动指定app
         app_parameter = ''
@@ -372,6 +420,8 @@ class Agent(th.Thread):
         pid = os.getpid()
         if app_name == 'FTPmanager':
             app = FTPmanager(self._adb_type, sn, self._q, pid, app_parameter)
+        elif app_name == 'FTPelf':
+            app = FTPelf(self._adb_type, sn, self._q, pid, app_parameter)
         elif app_name == 'kuaishou':
             app = Kuaishou(self._adb_type, sn, self._q, pid, app_parameter)
         elif app_name == 'bilibili':
@@ -438,8 +488,7 @@ class Agent(th.Thread):
 
     def run(self):
 
-        while True:  ## 需要不断刷新设备列表
-            print('fun tid: ', th.current_thread().name)
+        while True:
             agent_info = {}
             agent_info['agent_state'] = self._state
             if self._state == S_A_USB_INIT or self._state == S_A_WIFI_IDLE:
@@ -447,7 +496,7 @@ class Agent(th.Thread):
                     print('try get devices')
                     agent_info['devices'] = self._get_device_list()
                     self._all_devices = agent_info['devices']
-                    self._launch_wda()
+                    # self._launch_wda()  # wda.Client()可以自己启动软件，这里就不需要用tidevice来启动了
                     # print("got usb devices!")
 
                 # reply = self._udp_send_reply(agent_info)
