@@ -34,7 +34,7 @@ SERVER_CMD_RUN_APP = 'cmd_run_app'
 SERVER_CMD_OK = 'cmd_run_ok'
 DATA_PATH = 'data'
 
-
+# class App(mp.Process):
 class App(th.Thread):
     def __init__(self, adb_type, sn, duration, q, app_name, app_activity, ppid=None, app_parameter=''):
         super(App, self).__init__()
@@ -164,9 +164,9 @@ class FTPmanager(App):
         pass
 
 class FTPelf(App):
-    def __init__(self, adb_type, sn, q, ppid, app_parameter):
+    def __init__(self, adb_type, sn, q, ppid, app_parameter, barrier):
         super(FTPelf, self).__init__(adb_type, sn, 0, q, 'com.ujweng.ftpspritefree', '', ppid, app_parameter)
-
+        self._b = barrier
     def do_once_operation(self):
         print('app tid: ', th.current_thread().name)
         self._d(type='Button', label='FTP服务器').tap()
@@ -208,6 +208,7 @@ class FTPelf(App):
             else:
                 print('3333')
                 ele = self._d(predicate='label == "{}"'.format(file_name)).get().bounds
+                self._b.wait()
                 self._d.tap(ele[0]+ele[3]/2, ele[1]+ele[3]/2)
                 download_start = time.time()
                 while not self._d(type='XCUIElementTypeProgressIndicator').exists:
@@ -244,6 +245,8 @@ class Kuaishou(App):
         print('time cost: ', time.time()-self.start_time)
         print('time slot: ', time.time()-self.last_time)
         self.last_time = time.time()
+        wda.Session.alert
+
 
 # 抖音暂时无法使用，iOS端同时启动wda和抖音后会卡死
 class Douyin(App):
@@ -390,7 +393,7 @@ class Agent(th.Thread):
             reply['wlan_ip'] = stat['wlan_ip']
             return reply
 
-    def _start_apps(self, device):
+    def _start_apps(self, device, app_name):
         # 随机启动APP，设置随机运行时间
         sn = device
         # apps = device[1]
@@ -407,7 +410,8 @@ class Agent(th.Thread):
 
         # 随机选择一个具体的APP
         #app_name = apps[randrange(len(apps))]
-        app_name = 'FTPelf'
+        # app_name = 'FTPelf'
+        # app_name = 'kuaishou'
 
         # 根据当前sn判断是否需要启动指定app
         app_parameter = ''
@@ -419,9 +423,9 @@ class Agent(th.Thread):
         app = None
         pid = os.getpid()
         if app_name == 'FTPmanager':
-            app = FTPmanager(self._adb_type, sn, self._q, pid, app_parameter)
+            app = FTPmanager(self._adb_type, sn, self._q, pid, app_parameter, self._b)
         elif app_name == 'FTPelf':
-            app = FTPelf(self._adb_type, sn, self._q, pid, app_parameter)
+            app = FTPelf(self._adb_type, sn, self._q, pid, app_parameter, self._b)
         elif app_name == 'kuaishou':
             app = Kuaishou(self._adb_type, sn, self._q, pid, app_parameter)
         elif app_name == 'bilibili':
@@ -498,7 +502,8 @@ class Agent(th.Thread):
                     self._all_devices = agent_info['devices']
                     # self._launch_wda()  # wda.Client()可以自己启动软件，这里就不需要用tidevice来启动了
                     # print("got usb devices!")
-
+                device_num = len(self._all_devices)
+                self._b = th.Barrier(device_num)
                 # reply = self._udp_send_reply(agent_info)
                 data = lz4.frame.compress(pickle.dumps(agent_info))
                 reply = self._proc_recv(data)
@@ -506,8 +511,9 @@ class Agent(th.Thread):
                     print('all devices:', reply['devices'])
                     with open('app_type_rate.log', 'a') as f:
                         f.write("all device restart! cur_time: %s, cur_app_rate: %s, cur_restart_devices: %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), self._app_rate, reply['devices']) + '\n')
+                    app_name = input("input app name(options: FTPelf, kuaishou): ")
                     for device in reply['devices']:
-                        self._start_apps(device)
+                        self._start_apps(device, app_name)
                     if self._state == S_A_USB_INIT:
                         self._state = S_A_USB_APP_RUNNING
                     else:

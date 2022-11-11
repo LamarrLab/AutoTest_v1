@@ -380,3 +380,38 @@ cur_time: 2022-11-08 11:46:04, device: 00008110-001A79D10CE1401E, app_name: FTPe
 all device restart! cur_time: 2022-11-08 11:46:59, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
 cur_time: 2022-11-08 11:47:02, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
 cur_time: 2022-11-08 11:47:05, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-08 14:49:48, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E', '00008110-001E3C3E0E2A401E']
+all device restart! cur_time: 2022-11-08 14:50:21, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E', '00008110-001E3C3E0E2A401E']
+all device restart! cur_time: 2022-11-08 14:52:28, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E', '00008110-001E3C3E0E2A401E']
+cur_time: 2022-11-08 14:52:31, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+cur_time: 2022-11-08 14:52:34, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-08 14:53:12, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E', '00008110-001E3C3E0E2A401E']
+cur_time: 2022-11-08 14:53:15, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+cur_time: 2022-11-08 14:53:18, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-11 09:14:55, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:14:58, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-11 09:15:50, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:15:53, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
+cur_time: 2022-11-11 09:15:57, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-11 09:16:59, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:17:02, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
+cur_time: 2022-11-11 09:17:05, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-11 09:17:56, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:17:59, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+cur_time: 2022-11-11 09:18:02, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-11 09:55:35, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:55:46, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-11 09:56:30, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+all device restart! cur_time: 2022-11-11 09:57:52, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:58:05, device: 00008110-001E3C3E0E2A401E, app_name: FTPelf
+cur_time: 2022-11-11 09:58:08, device: 00008110-001A79D10CE1401E, app_name: FTPelf
+all device restart! cur_time: 2022-11-11 09:59:47, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001E3C3E0E2A401E', '00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 09:59:57, device: 00008110-001E3C3E0E2A401E, app_name: kuaishou
+cur_time: 2022-11-11 10:00:00, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-11 10:03:47, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZ3S']
+all device restart! cur_time: 2022-11-11 10:04:10, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['ZY22CWDZ3S']
+cur_time: 2022-11-11 10:04:21, device: ZY22CWDZ3S, app_name: douyinlive
+all device restart! cur_time: 2022-11-11 14:44:01, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 14:44:08, device: 00008110-001A79D10CE1401E, app_name: kuaishou
+all device restart! cur_time: 2022-11-11 14:45:15, cur_app_rate: [0, 1, 0, 0], cur_restart_devices: ['00008110-001A79D10CE1401E']
+cur_time: 2022-11-11 14:45:32, device: 00008110-001A79D10CE1401E, app_name: kuaishou

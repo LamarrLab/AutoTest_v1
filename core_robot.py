@@ -74,6 +74,7 @@ class App(th.Thread):
         time.sleep(0.5)
         self._d.press("home")
         time.sleep(0.5)
+        self._d.open_quick_settings()
 
     def _prepare_watchers(self):
         # self._d.watcher.when("跳过").click()
@@ -455,7 +456,7 @@ class Agent(th.Thread):
             reply['wlan_ip'] = stat['wlan_ip']
             return reply
 
-    def _start_apps(self, device):
+    def _start_apps(self, device, app_name):
         # 随机启动APP，设置随机运行时间
         sn = device
         # apps = device[1]
@@ -472,7 +473,7 @@ class Agent(th.Thread):
 
         #随机选择一个具体的APP
         #app_name = apps[randrange(len(apps))]
-        app_name = 'douyinlive'
+        # app_name = 'douyinlive'
 
         # 根据当前sn判断是否需要启动指定app
         app_parameter = ''
@@ -564,8 +565,9 @@ class Agent(th.Thread):
                     print('all devices:', reply['devices'])
                     with open('app_type_rate.log', 'a') as f:
                         f.write("all device restart! cur_time: %s, cur_app_rate: %s, cur_restart_devices: %s" % (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), self._app_rate, reply['devices']) + '\n')
+                    app_name = input("input app name(options: douyin, douyinlive, PowerFTP): ")
                     for device in reply['devices']:
-                        self._start_apps(device)
+                        self._start_apps(device, app_name)
                     if self._state == S_A_USB_INIT:
                         self._state = S_A_USB_APP_RUNNING
                     else:
